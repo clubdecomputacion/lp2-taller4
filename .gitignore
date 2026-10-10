@@ -6,6 +6,7 @@ instance/*
 !instance/.gitignore
 .webassets-cache
 .env*
+!.env.example
 
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
@@ -25,6 +26,8 @@ downloads/
 eggs/
 .eggs/
 lib/
+!frontend/lib/
+!frontend/lib/**
 lib64/
 parts/
 sdist/
